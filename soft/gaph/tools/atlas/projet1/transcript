@@ -1,0 +1,9 @@
+# do simulate_monitores.do
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+# ** Error: SystemC is not supported on linuxaloem.
+# Error in macro ./simulate_monitores.do line 6
+# SystemC is not supported on linuxaloem.
+#     while executing
+# "sccom -g SC_NoC/SC_InputModule.cpp"

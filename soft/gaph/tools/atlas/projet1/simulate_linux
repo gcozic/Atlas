@@ -1,0 +1,8 @@
+rm -rf work in*.txt out*.txt r*.txt 
+rm -rf Traffic//Out/* 
+cp Traffic//In/* .
+vsim -c -do simulate_monitores.do
+mv list.txt Power/Evaluation/
+rm -rf in*
+mv out* Traffic//Out/
+mv r*.txt Traffic//Out/
