@@ -10,7 +10,7 @@ This installation guide is using Ubunu 22.04.
 - Atlas_installer.sh : Install the java and Atlas packages and compile Atlas
 - Atlas_launcher.sh : Launch the application
 - soft : here are the Atlas files
-- jdk-19_linux-x64_bin.tar.gz : compressed java package
+- jdk-19_linux-x64_bin.tar.gz : Need to download https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.tar.gz
 
 ## Installation guide line
 
