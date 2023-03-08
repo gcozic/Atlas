@@ -1,0 +1,10 @@
+ABOUT ATLAS 
+
+  The Atlas environment automates the various processes related to the design flow for some of NoCs proposed by the GAPH Group and eventually by other groups with which we collaborate. Currently, the design flow is composed by the following stages: NoC generation, traffic generation, simulation, performance and power evaluation. In the NoC generation, the NoC parameters (for example, channel bandwidth, buffer depth, number of virtual channels, flow control strategies) are configured. In the traffic generation, the traffic sceneries are generated to characterize the applications which execute on the NoC. In the simulation, the traffic data are injected in the NoC, occurring in this step the effective communication among the cores. In the performance evaluation, it is possible to generate graphics, tables, maps and reports to help in the analysis of obtained results.
+
+  Please, check https://corfu.pucrs.br/redmine/projects/atlas/wiki for the complete documentation about Atlas.
+
+SOFTWARE INSTALATION
+
+ Check the website https://corfu.pucrs.br/redmine/projects/atlas/wiki/Install for updated information about instalation procedures.
+

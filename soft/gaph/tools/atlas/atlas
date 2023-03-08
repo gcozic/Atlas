@@ -1,0 +1,16 @@
+JAVA_HOME=/usr/java/jdk-19.0.1
+export printenv JAVA_HOME
+PATH=$JAVA_HOME:bin:$PATH
+export printenv PATH
+ATLAS_HOME=/soft/gaph/tools/atlas
+export printenv ATLAS_HOME
+PATH=$ATLAS_HOME:$PATH
+export printenv PATH
+MODELSIM_HOME=/usr/intelFPGA/16.1/modelsim_ase
+export printenv MODELSIM_HOME
+PATH=$MODELSIM_HOME/bin:$PATH
+export printenv PATH
+GNUPLOT_HOME=/usr/gnuplot/gnuplot-5.4.5
+export printenv GNUPLOT_HOME
+
+java -classpath $ATLAS_HOME Atlas

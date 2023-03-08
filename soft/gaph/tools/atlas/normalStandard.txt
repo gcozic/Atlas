@@ -1,0 +1,6 @@
+reset
+set title "Normal Distribution"
+set xlabel "+Rate (Mbps)"
+set ylabel "Number of Packets"
+plot 'normalStandard.dat' using ($1):($2) t"Normal" with linespoints 5 5
+pause -1 "Press ENTER to continue"
