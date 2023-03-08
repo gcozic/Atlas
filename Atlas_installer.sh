@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# extracting the java package
+# downloding and extracting the java package
+wget https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.tar.gz
 tar -xzvf jdk-19_linux-x64_bin.tar.gz 
 
 # placing java package in the right location
